@@ -15,6 +15,9 @@ int mul(int num1, int num2){
 int divi(int num1, int num2){
 	return num1/num2;
 }
+int rem(int num1, num2){
+	return num1%num2;
+}
 
 int main(){
     int x = 10, y = 5;
@@ -22,7 +25,9 @@ int main(){
     cout << "Add: " << add(x, y) << endl;
     cout << "Sub: " << sub(x, y) << endl;
      cout << "mul: " << mul(x, y) << endl;
-    cout << "divi: " << divi(x, y) << endl;
+      cout << "divi: " << divi(x, y) << endl;
+    
+    cout << "rem: " << rem(x, y) << endl;
     
     return 0;
 }
